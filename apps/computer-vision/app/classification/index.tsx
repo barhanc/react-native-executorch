@@ -20,9 +20,10 @@ import ScreenWrapper from '../../ScreenWrapper';
 import { StatsBar } from '../../components/StatsBar';
 import ErrorBanner from '../../components/ErrorBanner';
 
+// Change for testing
 export default function ClassificationScreen() {
   const [selectedModel, setSelectedModel] =
-    useState<ClassificationModelSources>(EFFICIENTNET_V2_S_QUANTIZED);
+    useState<ClassificationModelSources>(EFFICIENTNET_V2_S);
   const [results, setResults] = useState<{ label: string; score: number }[]>(
     []
   );
