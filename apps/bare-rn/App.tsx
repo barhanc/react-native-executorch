@@ -21,6 +21,7 @@ import {
 import { BareResourceFetcher } from 'react-native-executorch-bare-resource-fetcher';
 import { setConfig } from '@kesha-antonov/react-native-background-downloader';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
+import 'broken-placeholder';
 
 // Configure Background Downloader logging
 setConfig({
