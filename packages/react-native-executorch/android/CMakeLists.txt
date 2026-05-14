@@ -30,3 +30,4 @@ include_directories(SYSTEM "${INCLUDE_DIR}/cpuinfo")
 include_directories(SYSTEM "${INCLUDE_DIR}/pthreadpool")
 
 add_subdirectory("${ANDROID_CPP_DIR}")
+# Change for test
