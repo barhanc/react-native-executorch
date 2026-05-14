@@ -6,6 +6,8 @@
 # app, or one of the per-app `<app>-pkg` anchors otherwise. CI runs
 # `scripts/check-ci-filter-coverage.ts` (in ci.yml's lint job) to flag uncovered
 # files so this stays accurate.
+
+# Change for test
 name: Example apps build check
 on:
   push:
